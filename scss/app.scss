@@ -1,0 +1,50 @@
+// Variables
+
+$primaryColor: green;
+$x: .05;
+body {
+  $primaryColor: #ccc !global;
+  background: $primaryColor;
+}
+
+p {
+  color: $primaryColor;
+}
+
+$firstValue: 66.5% - $x;
+
+$firstValue: 24px !default;
+
+body {
+    font-size: $firstValue;
+}
+
+// Math
+
+// Nesting
+
+
+#form-register input span {
+ 
+      color: chartreuse;
+}
+
+#form-register input {
+ 
+      font-size: 1rem;
+}
+
+#form-register {
+  
+  input {
+    span {
+      color: chartreuse;
+    }
+    font-size: 3rem;
+  }
+}
+
+input {
+    font-size: 6rem;
+  }
+
